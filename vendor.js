@@ -4743,7 +4743,7 @@
 						tawkToUrl: {
 							type: String,
 						default:
-							"https://google.com/"
+							"https://www.tawk.to"
 						}
 					},
 					computed: {
@@ -4774,60 +4774,7 @@
 					}
 				},
 				M = (n("1c87"), s(q, (function () {
-					var t = this,
-					e = t.$createElement,
-					n = t._self._c || e;
-					return Object.keys(t.whitelabel).length ? n("div", [t.whitelabel.label ? n(t.whitelabel.url ? "a": "span", t._b({
-						tag: "component",
-						staticClass: "tawk-branding",
-						style: t.anchorStyle,
-						attrs: {
-							href: !!t.whitelabel.url && this.whitelabel.url,
-							target: !!t.whitelabel.url && "_blank"
-						},
-						domProps: {
-							innerHTML: t._s(t.whitelabel.label)
-						}
-					},
-					"component", t.$attrs, !1)) : t._e()], 1) : n("div", {
-						attrs: {
-							id: t.getUUID()
-						}
-					},
-					[t._l(t.getRandomInt(), (function (e) {
-						return n("a", {
-							key: "1" + e,
-							attrs: {
-								id: t.getUUID(),
-								tabindex: "-1"
-							}
-						})
-					})), n("a", t._b({
-						staticClass: "tawk-branding",
-						style: t.anchorStyle,
-						attrs: {
-							id: t.getUUID(),
-							href: t.tawkToUrl,
-							target: "_blank"
-						}
-					},
-					"a", t.$attrs, !1), [t._v(" Chat "), n("img", {
-						style: t.iconStyle,
-						attrs: {
-							src: t.powerImageUrl
-						}
-					}), t._v(" by "), n("span", {
-						staticClass: "tawk-text-bold"
-					},
-					[t._v(" tawk.to ")])]), t._l(t.getRandomInt(), (function (e) {
-						return n("a", {
-							key: "2" + e,
-							attrs: {
-								id: t.getUUID(),
-								tabindex: "-1"
-							}
-						})
-					}))], 2)
+					
 				}), [], !1, null, null, null)).exports,
 				H = {
 					name: "tawk-button",
